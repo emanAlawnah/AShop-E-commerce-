@@ -6,10 +6,12 @@ using Ecommerce.DAL.Models;
 using Ecommerce.DAL.Repository;
 using Ecommerce.PL.Resources;
 using Mapster;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
+using System.Security.Claims;
 
 namespace Ecommerce.PL.Controllers
 {
@@ -25,9 +27,12 @@ namespace Ecommerce.PL.Controllers
         _categorySarvice = categorySarvice;
         }
 
+        
         [HttpPost("")]
+        [Authorize]
         public async Task <IActionResult> Create(CategoryRequest request)
         {
+            var user = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var response = await _categorySarvice.CreateCategory(request);
             return Ok(new
             {

@@ -10,5 +10,6 @@ namespace Ecommerce.DAL.DTO.Response
     {
         public string message { get; set; }
         public bool success { get; set; }
+        public string? AccessToken { get; set; }
     }
 }

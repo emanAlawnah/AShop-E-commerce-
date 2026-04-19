@@ -1,16 +1,19 @@
 
 using Ecommerce.BLL;
+using Ecommerce.BLL.Service;
 using Ecommerce.DAL.Data;
+using Ecommerce.DAL.Models;
+using Ecommerce.DAL.Repository;
+using Ecommerce.DAL.Utiles;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using System.Globalization;
-using Microsoft.AspNetCore.Localization;
-using Ecommerce.DAL.Repository;
-using Ecommerce.BLL.Service;
-using Ecommerce.DAL.Models;
-using Microsoft.AspNetCore.Identity;
-using Ecommerce.DAL.Utiles;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace Ecommerce.PL
@@ -62,6 +65,30 @@ namespace Ecommerce.PL
             builder.Services.AddTransient<IEmailSender, EmailSender>();
 
             builder.Services.AddScoped<ISeedData,RoleSeedData>();
+
+
+
+            builder.Services.AddAuthorization();
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+
+                    .AddJwtBearer(options =>
+                    {
+                        options.TokenValidationParameters = new TokenValidationParameters
+                        {
+                            ValidateIssuer = true,
+                            ValidateAudience = true,
+                            ValidateLifetime = true,
+                            ValidateIssuerSigningKey = true,
+                            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                            ValidAudience = builder.Configuration["Jwt:Audience"],
+                            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:SecretKey"]))
+                        };
+                    });
+
             var app = builder.Build();
             app.UseRequestLocalization(app.Services.GetRequiredService<IOptions<RequestLocalizationOptions>>().Value);
 
@@ -75,7 +102,7 @@ namespace Ecommerce.PL
             }
 
             app.UseHttpsRedirection();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllers();

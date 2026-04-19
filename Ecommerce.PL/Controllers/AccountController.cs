@@ -29,6 +29,8 @@ namespace Ecommerce.PL.Controllers
             return Ok(result);
         }
 
+
+
         [HttpGet("ConfirmEmail")]
 
         public async Task<IActionResult> ConfirmEmail(string token, string userId)
