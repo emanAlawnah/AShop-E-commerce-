@@ -42,5 +42,21 @@ namespace Ecommerce.PL.Controllers
             return BadRequest();
         }
 
+        [HttpPost("sendCode")]
+        public async Task<IActionResult> RequestPaswordReset(ForgottPasswordRequest request)
+        {
+            var result = await _authenticationService.RequestPasswordReset(request);
+            if (!result.success) return BadRequest();
+            return Ok(result);
+        }
+
+
+        [HttpPost("resetPassword")]
+        public async Task<IActionResult> PaswordReset(ResetPasswordRequest request)
+        {
+            var result = await _authenticationService.ResetPasswordASync(request);
+            if (!result.success) return BadRequest();
+            return Ok(result);
+        }
     }
 }

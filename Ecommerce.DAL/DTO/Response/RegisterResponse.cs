@@ -8,7 +8,8 @@ namespace Ecommerce.DAL.DTO.Response
 {
     public class RegisterResponse
     {
-        public string message { get; set; }
-        public bool success { get; set; }
+        public string Message { get; set; }
+        public bool Success { get; set; }
+        public List<String> Errors { get; set; }
     }
 }

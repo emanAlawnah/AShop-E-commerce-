@@ -51,7 +51,7 @@ namespace Ecommerce.PL.Controllers
             return Ok(new
             {
                 data= categories,
-                _localizer["success"].Value
+                _localizer["Success"].Value
             });
         }
 

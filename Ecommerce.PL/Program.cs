@@ -1,5 +1,6 @@
 
 using Ecommerce.BLL;
+using Ecommerce.BLL.Mapping;
 using Ecommerce.BLL.Service;
 using Ecommerce.DAL.Data;
 using Ecommerce.DAL.Models;
@@ -34,7 +35,18 @@ namespace Ecommerce.PL
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
+            var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  policy =>
+                                  {
+                                      policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                                     
+                                  });
+            });
             builder.Services.AddLocalization(options => options.ResourcesPath = "");
             const string defaultCulture = "en";
             var supportedCultures = new[]
@@ -60,8 +72,23 @@ namespace Ecommerce.PL
             builder.Services.AddScoped<ICategorySarvice,CategorySarvice>();
             builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 
-            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(Options => Options.User.RequireUniqueEmail= true)
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(Options =>
+           {   Options.User.RequireUniqueEmail = true;
+               Options.Password.RequireDigit = true;
+               Options.Password.RequireLowercase = true;
+               Options.Password.RequireUppercase = true;
+               Options.Password.RequireNonAlphanumeric = true;
+               Options.Password.RequiredLength = 5;
+
+               Options.Lockout.MaxFailedAccessAttempts = 5;
+               Options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+           
+           }
+
+
+            )
             .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+
             builder.Services.AddTransient<IEmailSender, EmailSender>();
 
             builder.Services.AddScoped<ISeedData,RoleSeedData>();
@@ -69,6 +96,7 @@ namespace Ecommerce.PL
 
 
             builder.Services.AddAuthorization();
+            MapsterConfig.MapsterConfigRegister();
             builder.Services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -100,6 +128,7 @@ namespace Ecommerce.PL
             {
                 app.MapOpenApi();
             }
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseHttpsRedirection();
             app.UseAuthentication();

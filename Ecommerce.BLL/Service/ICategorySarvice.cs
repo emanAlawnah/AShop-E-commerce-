@@ -12,7 +12,7 @@ namespace Ecommerce.BLL.Service
 {
     public interface ICategorySarvice
     {
-       Task <List<CategoryResponse>> GetAllCategories();
+        Task<List<CategoryResponse>> GetAllCategories();
         Task <CategoryResponse> CreateCategory(CategoryRequest request);
         Task<CategoryResponse> GetCategory(Expression<Func<Category, bool>> filter);
         Task<bool> DeleteCategory(int id);

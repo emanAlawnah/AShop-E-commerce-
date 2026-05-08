@@ -1,0 +1,15 @@
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\bin\Release\net9.0\Ecommerce.DAL.deps.json
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\bin\Release\net9.0\Ecommerce.DAL.runtimeconfig.json
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\bin\Release\net9.0\Ecommerce.DAL.dll
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\bin\Release\net9.0\Ecommerce.DAL.pdb
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\obj\Release\net9.0\Ecommerce.DAL.csproj.AssemblyReference.cache
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\obj\Release\net9.0\Ecommerce.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\obj\Release\net9.0\Ecommerce.DAL.AssemblyInfoInputs.cache
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\obj\Release\net9.0\Ecommerce.DAL.AssemblyInfo.cs
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\obj\Release\net9.0\Ecommerce.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\obj\Release\net9.0\Ecommerce.DAL.sourcelink.json
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\obj\Release\net9.0\Ecommerce.DAL.dll
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\obj\Release\net9.0\refint\Ecommerce.DAL.dll
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\obj\Release\net9.0\Ecommerce.DAL.pdb
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\obj\Release\net9.0\Ecommerce.DAL.genruntimeconfig.cache
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.DAL\obj\Release\net9.0\ref\Ecommerce.DAL.dll

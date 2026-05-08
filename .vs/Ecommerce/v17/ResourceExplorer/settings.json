@@ -6,10 +6,13 @@
   "ColumnOrder": [
     "name",
     "type",
-    "ar"
+    "ar",
+    "neutral-value",
+    "neutral-comment"
   ],
   "VisibleColumnKeys": [
     "name",
+    "ar",
     "neutral-value"
   ]
 }
