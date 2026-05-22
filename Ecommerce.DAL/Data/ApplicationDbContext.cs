@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,6 +19,9 @@ namespace Ecommerce.DAL.Data
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<CategoryTranslation> CategoriesTranslations { get; set; }
+
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductTranslations> ProductTranslations { get; set; }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options , IHttpContextAccessor httpContextAccessor): base(options)
         {
@@ -32,6 +36,39 @@ namespace Ecommerce.DAL.Data
             builder.Entity<ApplicationUser>().ToTable("Users");
             builder.Entity<IdentityRole>().ToTable("Roles");
             builder.Entity<IdentityUserRole<string>>().ToTable("UserRoles");
+
+            builder.Entity<Category>()
+                .HasOne(p => p.CreatedBy)
+                .WithMany()
+                .HasForeignKey(p => p.CreatedById)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.Entity<Category>()
+                .HasOne(p => p.UpdatedBy)
+                .WithMany()
+                .HasForeignKey(p => p.UpdatedById)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.Entity<Product>()
+            .HasOne(p => p.CreatedBy)
+            .WithMany()
+            .HasForeignKey(p => p.CreatedById)
+            .OnDelete(DeleteBehavior.Restrict);
+
+            builder.Entity<Product>()
+                .HasOne(p => p.UpdatedBy)
+                .WithMany()
+                .HasForeignKey(p => p.UpdatedById)
+                .OnDelete(DeleteBehavior.Restrict);
+
+           builder.Entity<Product>()
+            .Property(p => p.Price)
+            .HasPrecision(18, 2);
+
+           builder.Entity<Product>()
+           .Property(p => p.Discount)
+           .HasPrecision(18, 2);
+
 
         }
 

@@ -11,6 +11,7 @@ namespace Ecommerce.DAL.Repository
     {
         Task<List<T>> GetAllAsync(string[]? includes = null);
         Task<T> CreateAsync(T category);
+        Task<bool> UpdateAsync(T entity);
         Task<T?> GetOne(Expression<Func<T, bool>> filter, string[]? includes = null);
         Task<bool> DeleteAysnc(T entity);
 

@@ -92,7 +92,9 @@ namespace Ecommerce.PL
             builder.Services.AddTransient<IEmailSender, EmailSender>();
 
             builder.Services.AddScoped<ISeedData,RoleSeedData>();
-
+            builder.Services.AddScoped<IFileService , FileService>();
+            builder.Services.AddScoped<IProductService,ProductService>();
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 
             builder.Services.AddAuthorization();
@@ -134,6 +136,7 @@ namespace Ecommerce.PL
             app.UseAuthentication();
             app.UseAuthorization();
 
+            app.UseStaticFiles();
             app.MapControllers();
 
             using (var scope = app.Services.CreateScope()) 

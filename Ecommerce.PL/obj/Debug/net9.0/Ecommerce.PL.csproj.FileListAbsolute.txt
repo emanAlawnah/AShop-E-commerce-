@@ -181,3 +181,4 @@ C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.PL\bin\Debug\net9.
 C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.PL\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.PL\obj\Debug\net9.0\Ecommerce.PL.sourcelink.json
+C:\Users\Hp\Documents\asp.net12\asp12\api\Ecommerce\Ecommerce.PL\bin\Debug\net9.0\Ecommerce.PL.staticwebassets.runtime.json

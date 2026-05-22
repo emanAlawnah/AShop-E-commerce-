@@ -1,4 +1,5 @@
-﻿using Ecommerce.DAL.DTO.Response;
+﻿using Ecommerce.DAL.DTO.Request;
+using Ecommerce.DAL.DTO.Response;
 using Ecommerce.DAL.Models;
 using Mapster;
 using System;
@@ -23,7 +24,17 @@ namespace Ecommerce.BLL.Mapping
                 
                 );
 
+            TypeAdapterConfig<Product, ProductResponse>.NewConfig()
+            .Map(dest => dest.UserCreated, source => source.CreatedBy.UserName)
+            .Map(dest => dest.Name, source => source.Translations.Where
+            (
+                t => t.Language == CultureInfo.CurrentCulture.Name).Select(t => t.Name).FirstOrDefault()
 
+            )
+            .Map(dest => dest.MainImage, source => $"https://localhost:7232/images/{source.MainImage}");
+
+
+            TypeAdapterConfig<ProductUpdateRequest, Product>.NewConfig().IgnoreNullValues(true);
         }
     }
 }

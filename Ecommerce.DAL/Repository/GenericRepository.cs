@@ -59,6 +59,12 @@ namespace Ecommerce.DAL.Repository
             var affcted = await _context.SaveChangesAsync();
             return affcted > 0;
         }
-       
+
+        public async Task<bool> UpdateAsync(T entity)
+        {
+            _context.Update(entity);
+            var affected=await _context.SaveChangesAsync();
+            return affected > 0;
+        }
     }
 }
