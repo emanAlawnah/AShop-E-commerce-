@@ -39,6 +39,7 @@ namespace Ecommerce.BLL.Service
         public async Task<List<ProductResponse>> GetAllProductsAsync()
         {
             var products = await _productRepository.GetAllAsync(
+                null,
                 new string[]
                 {
                     nameof(Product.Translations),

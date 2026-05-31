@@ -23,6 +23,8 @@ namespace Ecommerce.DAL.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductTranslations> ProductTranslations { get; set; }
 
+        public DbSet<Cart> Carts { get; set; }
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options , IHttpContextAccessor httpContextAccessor): base(options)
         {
             _httpContextAccessor = httpContextAccessor;

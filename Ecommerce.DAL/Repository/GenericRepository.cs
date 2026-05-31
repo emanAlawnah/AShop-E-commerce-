@@ -25,10 +25,15 @@ namespace Ecommerce.DAL.Repository
             return entity;
         }
 
-        public async Task<List<T>> GetAllAsync(string[]? includes= null)
+        public async Task<List<T>> GetAllAsync(
+        Expression<Func<T, bool>>? filter = null,string[]? includes = null)
         {
              IQueryable<T> query = _context.Set<T>();
-            if(includes != null)
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+            if (includes != null)
             {
                 foreach(var include in includes)
                 {
@@ -65,6 +70,13 @@ namespace Ecommerce.DAL.Repository
             _context.Update(entity);
             var affected=await _context.SaveChangesAsync();
             return affected > 0;
+        }
+
+        public async Task<bool> DeleteRangeAsync(List<T> entities)
+        {
+
+            _context.RemoveRange(entities);
+            return await _context.SaveChangesAsync() > 0;
         }
     }
 }
