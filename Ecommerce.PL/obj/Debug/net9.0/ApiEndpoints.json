@@ -216,6 +216,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Ecommerce.PL.Controllers.CheckoutsController",
+    "Method": "payment",
+    "RelativePath": "api/Checkouts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Ecommerce.DAL.DTO.Request.CheckoutRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecommerce.PL.Controllers.CheckoutsController",
+    "Method": "Succes",
+    "RelativePath": "api/Checkouts/success",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Ecommerce.PL.Controllers.ProductsController",
     "Method": "Index",
     "RelativePath": "api/Products",
