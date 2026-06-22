@@ -13,7 +13,7 @@ namespace Ecommerce.BLL.Service
     public interface IProductService
     {
         Task CreateProduct(ProductRequest request);
-        Task<List<ProductResponse>> GetAllProductsAsync();
+        Task<PaginationResponse<ProductResponse>> GetAllProductsAsync(PaginationRequest request);
         Task<ProductResponse> GetProduct(Expression<Func<Product, bool>> filter);
         Task<bool> DeleteProduct(int id);
 

@@ -303,6 +303,28 @@ namespace Ecommerce.DAL.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("Ecommerce.DAL.Models.ProductImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProductID")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductID");
+
+                    b.ToTable("ProductImage");
+                });
+
             modelBuilder.Entity("Ecommerce.DAL.Models.ProductTranslations", b =>
                 {
                     b.Property<int>("Id")
@@ -570,6 +592,17 @@ namespace Ecommerce.DAL.Migrations
                     b.Navigation("UpdatedBy");
                 });
 
+            modelBuilder.Entity("Ecommerce.DAL.Models.ProductImage", b =>
+                {
+                    b.HasOne("Ecommerce.DAL.Models.Product", "product")
+                        .WithMany("SubImages")
+                        .HasForeignKey("ProductID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("product");
+                });
+
             modelBuilder.Entity("Ecommerce.DAL.Models.ProductTranslations", b =>
                 {
                     b.HasOne("Ecommerce.DAL.Models.Product", "Product")
@@ -646,6 +679,8 @@ namespace Ecommerce.DAL.Migrations
 
             modelBuilder.Entity("Ecommerce.DAL.Models.Product", b =>
                 {
+                    b.Navigation("SubImages");
+
                     b.Navigation("Translations");
                 });
 #pragma warning restore 612, 618

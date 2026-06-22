@@ -13,7 +13,10 @@ namespace Ecommerce.DAL.DTO.Request
         public decimal? Discount { get; set; }
         public int? Quantity { get; set; }
         public IFormFile? MainImage { get; set; }
-        public List<ProductTranslationRequest>? Translations { get; set; }
+        public List<IFormFile>? SubImages { get; set; }= new List<IFormFile>();
+        public List<IFormFile>? NewImages { get; set; } = new List<IFormFile>();
+
+        public List<ProductTranslationRequest>? Translations { get; set; }=new List<ProductTranslationRequest>();
         public int? CategoryId { get; set; }
     }
 }

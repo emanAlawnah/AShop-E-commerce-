@@ -24,9 +24,9 @@ namespace Ecommerce.PL.Controllers
         }
         [HttpGet("")]
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index([FromQuery]PaginationRequest request)
         {
-            var products = await _ProductService.GetAllProductsAsync();
+            var products = await _ProductService.GetAllProductsAsync(request);
             return Ok(
                 new { data = products });
         }

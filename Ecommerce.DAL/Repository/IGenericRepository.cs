@@ -13,6 +13,7 @@ namespace Ecommerce.DAL.Repository
 
         Task<T> CreateAsync(T category);
         Task<bool> UpdateAsync(T entity);
+        IQueryable<T> GetQuaryable(Expression<Func<T, bool>>? filter = null, string[]? includes = null);
         Task<T?> GetOne(Expression<Func<T, bool>> filter, string[]? includes = null);
         Task<bool> DeleteAysnc(T entity);
         Task<bool> DeleteRangeAsync(List<T> entities);

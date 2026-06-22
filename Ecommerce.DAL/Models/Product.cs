@@ -16,6 +16,7 @@ namespace Ecommerce.DAL.Models
         public string MainImage { get; set; }
         public int CategoryId { get; set; }
         public Category Category { get; set; }
-        public List<ProductTranslations> Translations { get; set; }
+        public List<ProductTranslations> Translations { get; set; }=new List<ProductTranslations>();
+        public List<ProductImage> SubImages { get; set; }=new List<ProductImage>();
     }
 }
