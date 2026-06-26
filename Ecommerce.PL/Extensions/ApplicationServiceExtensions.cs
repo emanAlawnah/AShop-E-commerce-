@@ -29,6 +29,7 @@ namespace Ecommerce.PL.Extensions
             services.AddScoped<ICheckoutService, BLL.Service.CheckoutService>();
 
             services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IOrderService, OrderService>();
 
             // Configure Stripe settings
             services.Configure<StripeSettings>(configuration.GetSection("Stripe"));

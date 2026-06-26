@@ -3,6 +3,50 @@
   "WorkspaceRootPath": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2272D813-FE43-4F2F-9127-C77ED9A4C1D4}|Ecommerce.DAL\\Ecommerce.DAL.csproj|c:\\users\\hp\\documents\\asp.net12\\asp12\\api\\ecommerce\\ecommerce.dal\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2272D813-FE43-4F2F-9127-C77ED9A4C1D4}|Ecommerce.DAL\\Ecommerce.DAL.csproj|solutionrelative:ecommerce.dal\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CD290CF-8906-4BEF-8CD8-1038699547E9}|Ecommerce.PL\\Ecommerce.PL.csproj|c:\\users\\hp\\documents\\asp.net12\\asp12\\api\\ecommerce\\ecommerce.pl\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CD290CF-8906-4BEF-8CD8-1038699547E9}|Ecommerce.PL\\Ecommerce.PL.csproj|solutionrelative:ecommerce.pl\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4F8504-0242-42D9-A266-85464991FF6F}|Ecommerce.BLL\\Ecommerce.BLL.csproj|c:\\users\\hp\\documents\\asp.net12\\asp12\\api\\ecommerce\\ecommerce.bll\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4F8504-0242-42D9-A266-85464991FF6F}|Ecommerce.BLL\\Ecommerce.BLL.csproj|solutionrelative:ecommerce.bll\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4F8504-0242-42D9-A266-85464991FF6F}|Ecommerce.BLL\\Ecommerce.BLL.csproj|c:\\users\\hp\\documents\\asp.net12\\asp12\\api\\ecommerce\\ecommerce.bll\\service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4F8504-0242-42D9-A266-85464991FF6F}|Ecommerce.BLL\\Ecommerce.BLL.csproj|solutionrelative:ecommerce.bll\\service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2272D813-FE43-4F2F-9127-C77ED9A4C1D4}|Ecommerce.DAL\\Ecommerce.DAL.csproj|c:\\users\\hp\\documents\\asp.net12\\asp12\\api\\ecommerce\\ecommerce.dal\\dto\\request\\changeorderstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2272D813-FE43-4F2F-9127-C77ED9A4C1D4}|Ecommerce.DAL\\Ecommerce.DAL.csproj|solutionrelative:ecommerce.dal\\dto\\request\\changeorderstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2272D813-FE43-4F2F-9127-C77ED9A4C1D4}|Ecommerce.DAL\\Ecommerce.DAL.csproj|c:\\users\\hp\\documents\\asp.net12\\asp12\\api\\ecommerce\\ecommerce.dal\\dto\\response\\orderdetailesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2272D813-FE43-4F2F-9127-C77ED9A4C1D4}|Ecommerce.DAL\\Ecommerce.DAL.csproj|solutionrelative:ecommerce.dal\\dto\\response\\orderdetailesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CD290CF-8906-4BEF-8CD8-1038699547E9}|Ecommerce.PL\\Ecommerce.PL.csproj|c:\\users\\hp\\documents\\asp.net12\\asp12\\api\\ecommerce\\ecommerce.pl\\extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CD290CF-8906-4BEF-8CD8-1038699547E9}|Ecommerce.PL\\Ecommerce.PL.csproj|solutionrelative:ecommerce.pl\\extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2272D813-FE43-4F2F-9127-C77ED9A4C1D4}|Ecommerce.DAL\\Ecommerce.DAL.csproj|c:\\users\\hp\\documents\\asp.net12\\asp12\\api\\ecommerce\\ecommerce.dal\\dto\\response\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2272D813-FE43-4F2F-9127-C77ED9A4C1D4}|Ecommerce.DAL\\Ecommerce.DAL.csproj|solutionrelative:ecommerce.dal\\dto\\response\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4F8504-0242-42D9-A266-85464991FF6F}|Ecommerce.BLL\\Ecommerce.BLL.csproj|c:\\users\\hp\\documents\\asp.net12\\asp12\\api\\ecommerce\\ecommerce.bll\\mapping\\mapsterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4F8504-0242-42D9-A266-85464991FF6F}|Ecommerce.BLL\\Ecommerce.BLL.csproj|solutionrelative:ecommerce.bll\\mapping\\mapsterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CD290CF-8906-4BEF-8CD8-1038699547E9}|Ecommerce.PL\\Ecommerce.PL.csproj|c:\\users\\hp\\documents\\asp.net12\\asp12\\api\\ecommerce\\ecommerce.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CD290CF-8906-4BEF-8CD8-1038699547E9}|Ecommerce.PL\\Ecommerce.PL.csproj|solutionrelative:ecommerce.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2272D813-FE43-4F2F-9127-C77ED9A4C1D4}|Ecommerce.DAL\\Ecommerce.DAL.csproj|c:\\users\\hp\\documents\\asp.net12\\asp12\\api\\ecommerce\\ecommerce.dal\\dto\\response\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2272D813-FE43-4F2F-9127-C77ED9A4C1D4}|Ecommerce.DAL\\Ecommerce.DAL.csproj|solutionrelative:ecommerce.dal\\dto\\response\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2272D813-FE43-4F2F-9127-C77ED9A4C1D4}|Ecommerce.DAL\\Ecommerce.DAL.csproj|c:\\users\\hp\\documents\\asp.net12\\asp12\\api\\ecommerce\\ecommerce.dal\\dto\\response\\paginationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2272D813-FE43-4F2F-9127-C77ED9A4C1D4}|Ecommerce.DAL\\Ecommerce.DAL.csproj|solutionrelative:ecommerce.dal\\dto\\response\\paginationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -50,11 +94,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Ecommerce.DAL\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\Models\\Order.cs",
+              "RelativeToolTip": "Ecommerce.DAL\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T19:51:28.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChangeOrderStatusRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\DTO\\Request\\ChangeOrderStatusRequest.cs",
+              "RelativeDocumentMoniker": "Ecommerce.DAL\\DTO\\Request\\ChangeOrderStatusRequest.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\DTO\\Request\\ChangeOrderStatusRequest.cs",
+              "RelativeToolTip": "Ecommerce.DAL\\DTO\\Request\\ChangeOrderStatusRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T19:41:46.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "orderDetailesResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\DTO\\Response\\orderDetailesResponse.cs",
+              "RelativeDocumentMoniker": "Ecommerce.DAL\\DTO\\Response\\orderDetailesResponse.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\DTO\\Response\\orderDetailesResponse.cs",
+              "RelativeToolTip": "Ecommerce.DAL\\DTO\\Response\\orderDetailesResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T22:20:09.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.PL\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Ecommerce.PL\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.PL\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Ecommerce.PL\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwDsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T19:56:19.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.PL\\Extensions\\ApplicationServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Ecommerce.PL\\Extensions\\ApplicationServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.PL\\Extensions\\ApplicationServiceExtensions.cs",
+              "RelativeToolTip": "Ecommerce.PL\\Extensions\\ApplicationServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T19:54:13.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.BLL\\Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "Ecommerce.BLL\\Service\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.BLL\\Service\\OrderService.cs",
+              "RelativeToolTip": "Ecommerce.BLL\\Service\\OrderService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwE8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T19:12:22.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.BLL\\Service\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Ecommerce.BLL\\Service\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.BLL\\Service\\IOrderService.cs",
+              "RelativeToolTip": "Ecommerce.BLL\\Service\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T19:12:22.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\DTO\\Response\\OrderResponse.cs",
+              "RelativeDocumentMoniker": "Ecommerce.DAL\\DTO\\Response\\OrderResponse.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\DTO\\Response\\OrderResponse.cs",
+              "RelativeToolTip": "Ecommerce.DAL\\DTO\\Response\\OrderResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T18:28:39.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MapsterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.BLL\\Mapping\\MapsterConfig.cs",
+              "RelativeDocumentMoniker": "Ecommerce.BLL\\Mapping\\MapsterConfig.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.BLL\\Mapping\\MapsterConfig.cs",
+              "RelativeToolTip": "Ecommerce.BLL\\Mapping\\MapsterConfig.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T20:36:15.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.PL\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Ecommerce.PL\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.PL\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Ecommerce.PL\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T20:25:43.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderItemResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\DTO\\Response\\OrderItemResponse.cs",
+              "RelativeDocumentMoniker": "Ecommerce.DAL\\DTO\\Response\\OrderItemResponse.cs",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\DTO\\Response\\OrderItemResponse.cs",
+              "RelativeToolTip": "Ecommerce.DAL\\DTO\\Response\\OrderItemResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T18:35:33.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.PL\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Ecommerce.PL\\Controllers\\ProductsController.cs",
@@ -62,12 +249,11 @@
               "RelativeToolTip": "Ecommerce.PL\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T16:34:43.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T16:34:43.8Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.BLL\\Service\\IProductService.cs",
               "RelativeDocumentMoniker": "Ecommerce.BLL\\Service\\IProductService.cs",
@@ -75,12 +261,11 @@
               "RelativeToolTip": "Ecommerce.BLL\\Service\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T16:33:51.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T16:33:51.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\Repository\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Ecommerce.DAL\\Repository\\IGenericRepository.cs",
@@ -88,12 +273,11 @@
               "RelativeToolTip": "Ecommerce.DAL\\Repository\\IGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T16:20:18.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T16:20:18.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\Repository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Ecommerce.DAL\\Repository\\GenericRepository.cs",
@@ -101,12 +285,11 @@
               "RelativeToolTip": "Ecommerce.DAL\\Repository\\GenericRepository.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAgwC4AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T23:49:17.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-20T23:49:17.718Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.BLL\\Service\\ProductService.cs",
               "RelativeDocumentMoniker": "Ecommerce.BLL\\Service\\ProductService.cs",
@@ -114,21 +297,16 @@
               "RelativeToolTip": "Ecommerce.BLL\\Service\\ProductService.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAYwEIAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T23:47:09.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2026-06-20T23:47:09.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "PaginationResponse.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\DTO\\Response\\PaginationResponse.cs",
               "RelativeDocumentMoniker": "Ecommerce.DAL\\DTO\\Response\\PaginationResponse.cs",
-              "ToolTip": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\DTO\\Response\\PaginationResponse.cs*",
-              "RelativeToolTip": "Ecommerce.DAL\\DTO\\Response\\PaginationResponse.cs*",
+              "ToolTip": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\DTO\\Response\\PaginationResponse.cs",
+              "RelativeToolTip": "Ecommerce.DAL\\DTO\\Response\\PaginationResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-20T22:46:40.624Z",
@@ -136,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "PaginationExtinsion.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.BLL\\Extinsions\\PaginationExtinsion.cs",
               "RelativeDocumentMoniker": "Ecommerce.BLL\\Extinsions\\PaginationExtinsion.cs",
@@ -144,12 +322,11 @@
               "RelativeToolTip": "Ecommerce.BLL\\Extinsions\\PaginationExtinsion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T23:17:48.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-20T23:17:48.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "PaginationRequest.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\DTO\\Request\\PaginationRequest.cs",
               "RelativeDocumentMoniker": "Ecommerce.DAL\\DTO\\Request\\PaginationRequest.cs",
@@ -157,12 +334,11 @@
               "RelativeToolTip": "Ecommerce.DAL\\DTO\\Request\\PaginationRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T20:43:21.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-20T20:43:21.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "AllowedExtinsionsAttribut.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.DAL\\validations\\AllowedExtinsionsAttribut.cs",
               "RelativeDocumentMoniker": "Ecommerce.DAL\\validations\\AllowedExtinsionsAttribut.cs",
@@ -170,12 +346,11 @@
               "RelativeToolTip": "Ecommerce.DAL\\validations\\AllowedExtinsionsAttribut.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T20:01:28.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-20T20:01:28.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "CategorySarvice.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Documents\\asp.net12\\asp12\\api\\Ecommerce\\Ecommerce.BLL\\Service\\CategorySarvice.cs",
               "RelativeDocumentMoniker": "Ecommerce.BLL\\Service\\CategorySarvice.cs",
@@ -183,8 +358,7 @@
               "RelativeToolTip": "Ecommerce.BLL\\Service\\CategorySarvice.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T18:52:05.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-20T18:52:05.748Z"
             }
           ]
         }

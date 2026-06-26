@@ -55,7 +55,9 @@ namespace Ecommerce.PL.Controllers
         public async Task<IActionResult> PaswordReset(ResetPasswordRequest request)
         {
             var result = await _authenticationService.ResetPasswordASync(request);
-            if (!result.success) return BadRequest();
+            if (!result.success)
+                return BadRequest(result);
+
             return Ok(result);
         }
     }

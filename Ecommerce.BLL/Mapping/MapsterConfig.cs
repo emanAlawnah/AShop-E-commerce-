@@ -42,9 +42,13 @@ namespace Ecommerce.BLL.Mapping
          source => source.SubImages
          .Select(i => $"https://localhost:7232/images/{i.ImagePath}"));
 
+            TypeAdapterConfig<OrderItem, OrderItemResponse>.NewConfig()
+                       .Map(dest => dest.ProductName, src => src.Product.Translations.Where(t => t.Language ==
+                    CultureInfo.CurrentCulture.TwoLetterISOLanguageName)
+                .Select(t => t.Name)
+                .FirstOrDefault());
 
-
-            TypeAdapterConfig<Cart, CartResponse>.NewConfig()
+     TypeAdapterConfig<Cart, CartResponse>.NewConfig()
     .Map(dest => dest.ProductName,
         source => source.Product.Translations
         .Where(t => t.Language ==

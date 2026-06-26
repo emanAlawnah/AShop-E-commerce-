@@ -13,8 +13,9 @@ namespace Ecommerce.DAL.Models
         Approved =2,
         Shipped =3,
         Deleverd = 4,
-        Cancelled =5,
-        paid=6,
+        paid = 5,
+        Cancelled =6,
+        
 
         }
     public class Order
